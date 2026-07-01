@@ -52,6 +52,8 @@ The final graph projects these co-occurrence weights onto a unified attribute sp
 *   **Dynamic Sizing:** Map node radiuses directly to their exact betweenness results: $\text{size} = \max(10, \mathcal{C}_B \times 300)$.
 *   **UI Interface Injection:** An automated python block injects a glassmorphic floating legend panel straight into the compiled DOM tree to preserve narrative clarity during user exploration.
 
+[Explore the interactive graph](https://ablackwellb.github.io/the-absent-archive/Andean_Network_Betweenness_Centrality.html)
+
 ---
 
 ## References & Theoretical Foundations
