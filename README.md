@@ -78,5 +78,16 @@ This is a single institution's collection, not the Andean world entire. The Met'
 
 ---
 
+## Execution Requirements
+
+Execute the notebook pipeline directly within your terminal workspace:
+
+```bash
+pip install pandas networkx pyvis
+python MET.ipynb
+```
+
+---
+
 **Ashley Blackwell** — Applied Data Scientist
 [LinkedIn](https://linkedin.com/in/ablackwellb) · [GitHub](https://github.com/ablackwellb) · [Hugging Face](https://huggingface.co/ablackwellb)
