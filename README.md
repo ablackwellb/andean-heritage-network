@@ -2,7 +2,7 @@
 
 An empirical graph analysis investigating institutional data absence within **The Metropolitan Museum of Art Open Access Dataset**. Out of 484,956 master records, this project focuses on the 2,108 artifacts representing pre-Columbian Andean cultural horizons, revealing a stark historical paradox: the structural tracking count for the primary text infrastructure of the Andes—the knotted-cord **quipu**—stands at exactly **ZERO**.
 
-This repository proves mathematically that when imperial powers execute state-sponsored erasure (such as the burning of archives decreed by the 1583 Third Council of Lima), raw physical substances (ceramics, camelid hair, cotton) step in to maintain civilizational continuity.
+This repository does not treat absence as self-explanatory proof. Instead, it maps how institutional metadata records a striking omission: within the Met’s Open Access Dataset, the structural tracking count for quipu-related terms is zero, even as other Andean materials remain present. The 1583 Third Council of Lima, which ordered the destruction of quipus, is therefore used here as historical context for interpreting archival absence, not as a cause that this dataset alone can prove.
 
 ---
 
@@ -17,7 +17,7 @@ This repository proves mathematically that when imperial powers execute state-sp
 
 ## Algorithmic Ingestion & Fractional Data Auditing
 
-To confirm that this zero-count represents an authentic historical erasure rather than an institutional cataloging oversight, the pipeline executes a multi-stage validation check over the full Met dataset:
+To test whether this zero-count reflects a simple cataloging miss, a keyword limitation, or a broader institutional absence, the pipeline executes a multi-stage validation check over the full Met dataset. The result does not prove the cause of the omission; it establishes the shape and consistency of the absence within this repository snapshot.
 
 | Audit Phase | Strategy Type | Target Filter Parameters & Regex | Scope Evaluated | Outcome & Metric Verified |
 | :--- | :--- | :--- | :--- | :--- |
@@ -54,7 +54,7 @@ The final graph projects these co-occurrence weights onto a unified attribute sp
 
 ## Interactive graph
 
-[Open the network visualization](https://ablackwellb.github.io/the-absent-archive/Andean_Network_Betweenness_Centrality.html)
+[Open the network visualization](https://ablackwellb.github.io/andean-heritage-network/Andean_Network_Betweenness_Centrality.html)
 
 ### This interactive PyVis graph maps Andean culture and medium co-occurrences, with node size scaled to betweenness centrality and node styling used to distinguish materials and uncertain classifications.
 
@@ -78,7 +78,7 @@ The final graph projects these co-occurrence weights onto a unified attribute sp
 
 ## Limitations
 
-This is a single institution's collection, not the Andean world entire. The Met's holdings reflect its own acquisition history, and the absence of quipu here is institutional, not universal — surviving quipu exist in scattered collections elsewhere (notably in Peru, Chile, and Germany, and catalogued in part by Harvard's Khipu Database Project). A natural extension is to compare a second institution's Andean holdings to see how differently each reconstructs the same lost world.
+This is a single institution's collection, not the Andean world entire. The Met's holdings reflect its own acquisition history, and the absence of quipu here is institutional, not universal — surviving quipu exist in scattered collections elsewhere (notably in Peru, Chile, and Germany, and catalogued in part by Harvard's Khipu Database Project). A natural extension is to compare a second institution's Andean holdings to see how differently each reconstructs the same lost world. With this being said, this repository uses graph analysis to examine a historical paradox: when textual infrastructures are absent from institutional metadata, surviving physical substances—ceramics, camelid hair, cotton, and other materials—may still preserve traces of civilizational continuity.
 
 ---
 
