@@ -78,14 +78,15 @@ This is a single institution's collection, not the Andean world entire. The Met'
 
 ---
 
-## Execution Requirements
-
-Execute the notebook pipeline directly within your terminal workspace:
+## Execution
 
 ```bash
-pip install pandas networkx pyvis
-python MET.ipynb
-```
+pip install -r requirements.txt
+jupyter notebook
+
+[Open MET.ipynb](MET.ipynb) and run all cells, or execute it headlessly with:
+
+jupyter nbconvert --to notebook --execute MET.ipynb --output MET.executed.ipynb
 
 ---
 
