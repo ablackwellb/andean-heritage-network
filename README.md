@@ -26,7 +26,7 @@ To test whether this zero-count reflects a simple cataloging miss, a keyword lim
 | :--- | :--- | :--- | :--- | :--- |
 | **Phase 1: Direct** | Explicit Search | <code>(?i)\b(quipu&#124;khipu&#124;quipo)\b</code> | 484,956 objects | **0 matches found** |
 | **Phase 2: Archaic** | Synonym Search | <code>(?i)(knot-record&#124;knot record&#124;knotted cord&#124;knotted string&#124;quipucamayoc&#124;khipukamayug&#124;accounting device&#124;peruvian thread&#124;talk knots&#124;talking knot&#124;assembled cords)</code> | 484,956 objects | **0 matches found** |
-| **Phase 3: Material** | Material-form Review Sweep | Fiber/textile objects in quipu-forming materials | 422 Andean textile/fiber records | **Reviewed; None Identified** |
+| **Phase 3: Material** | Material-form Review Sweep | Fiber/textile objects in quipu-forming materials | 422 Andean textile/fiber records | **Reviewed; no misfiled cord-records identified** |
 
 ### Archival Data Sparseness Analysis
 The diagnostic audit may expose fragmentation consistent with the separation of artifacts from their stratigraphic contexts:
