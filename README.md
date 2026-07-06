@@ -1,9 +1,9 @@
 # The Absent Archive
 ### Mapping Systemic Omission and Material Continuity in Andean Metadata
  
-> The Metropolitan Museum of Art holds 484,956 objects, including 2,108 from the Andean cultures. Andeans cultures (the *Inca* for one) kept their records and accounting in knotted cord, referred to as *khipu*. This Museum is absent of these artifacts.
+> The Metropolitan Museum of Art holds 484,956 objects, including 2,108 from Andean cultures. Those cultures — the Inca among them — kept their records and accounting using *khipukuna* (also known as the *khipu*, which is a Quechua term for "knots"). **The Met holds none.**
  
-This project treats that absence as its subject. Among Andean cultures, the *khipu* (a Quechua word meaning "knot"), was the primary system of record-keeping, computing, accounting, and contains the greatest portion of their history. Presently, and globally, around 900 khipu remain. These remaining khipu are scattered across three continents and 88 collections in museums. The remaining khipu, and the metadata that museums assign to them, are our only available way to reconstruct the shape of the Andean world. This network visualizes what holds the picture together when so much is missing.
+This project treats that absence as its subject. Among Andean cultures, the *khipu* (a Quechua word meaning "knot"), was the primary system of record-keeping, computing, and accounting. Presently, and globally, around 900 khipu remain. These remaining khipu are scattered across three continents and 88 collections in museums. The remaining khipu, and the metadata that museums assign to them, are our only available way to reconstruct the shape of the Andean world. This network visualizes what holds the picture together when so much is missing.
 
 ## What was Discovered
 
@@ -26,8 +26,8 @@ To confirm the zero reflects a genuine absence rather than a cataloging quirk, t
  
 | Check | What it does | Scope | Result |
 |---|---|---|---|
-| **Direct term search** | `(?i)\b(khipu\|khipu\|quipo)\b` across Object Name, Title, Classification | 484,956 objects | **0 matches** |
-| **Archaic-synonym sweep** | historical / pre-standardization terms (knotted cord, khipucamayoc, khipukamayuq, talking knot, and others) | 484,956 objects | **0 matches** |
+| **Direct term search** | `(?i)\b(quipu\|khipu\|quipo)\b` across Object Name, Title, Classification | 484,956 objects | **0 matches** |
+| **Archaic-synonym sweep** | historical / pre-standardization terms (knotted cord, quipucamayoc, khipukamayuq, talking knot, and others) | 484,956 objects | **0 matches** |
 | **Material-form review** | Andean textile/fiber objects in khipu-forming materials, reviewed for misfiled cord-records | 422 records | **none found** |
  
 ## Honest Handling of Absence
@@ -66,7 +66,7 @@ Curatorial uncertainty is also kept visible, as hedged attributions like "Chimú
 | 9 | Paracas | culture | 0.072 |
 | 10 | pigment | material | 0.063 |
  
-Two findings stand out. **Moche** is the single greatest bridge in the network — its objects share attributes across more of the Andean world than any other culture. And the top connectors are overwhelmingly **materials, not cultures**: ceramic, camelid hair, and cotton are what stitch distinct peoples together. When the written record is gone, it is the shared substances (like *clay, fiber, and metal*) that reveal the shared connections.
+Two findings stand out. **Moche** is the single greatest bridge in the network — its objects share attributes across more of the Andean world than any other culture. And the top connectors are overwhelmingly **materials, not cultures**: ceramic, camelid hair, and cotton are what stitch distinct peoples together. When the written record is gone, these attributes can reveal the connections.
  
 ## Visualization
  
@@ -87,7 +87,7 @@ The interactive graph (created using PyVis) is styled to carry the argument:
 
 ## Limitations
 
-This is a single institution's collection, not the Andean world entire. The Met's holdings reflect its own acquisition history, and the absence of khipu here is institutional, not universal. The surviving khipu exist in scattered collections across North America, South America, and Europe - notably: Peru, Chile, and Germany. Harvard's Department of Anthropology contains the Khipu Database (HDAKD) which also catalogues the remaining khipu into the Open Khipu Repository, where each khipu (khipu) is assigned a KH number. *A natural extension to this will be to compare a second institution's Andean holdings to see how differently each reconstructs the same lost world.*
+This is a single institution's collection, not the Andean world entire. The Met's holdings reflect its own acquisition history, and the absence of khipu here is institutional, not universal. The surviving khipu exist in scattered collections across North America, South America, and Europe - notably: Peru, Chile, and Germany. Harvard's Department of Anthropology contains the Khipu Database (HDAKD) which also catalogues the remaining khipu into the Open Khipu Repository, where each khipu is assigned a KH number. *A natural extension to this will be to compare a second institution's Andean holdings to see how differently each reconstructs the same lost world.*
 
 ## Repository Contents
  
@@ -111,7 +111,7 @@ jupyter nbconvert --to notebook --execute MET.ipynb --output MET.executed.ipynb
  
 ## References
 
-- OKR Team. (2022). *The Open Khipu Repository.* (v2.0.0) Zenodo. https://doi.org/10.5281/zenodo.6908343
+- OKR Team. (2025). *The Open Khipu Repository.* (v2.1.0) Zenodo. https://doi.org/10.5281/zenodo.6908343
 - Quilter, J., & Urton, G. (Eds.). (2002). *Narrative Threads: Accounting and Recounting in Andean Khipus.* University of Texas Press.
 - The Metropolitan Museum of Art. (2024). *MetObjects: Open Access Dataset.* CC0 1.0. https://github.com/metmuseum/openaccess
 - Trouillot, M.-R. (1995). *Silencing the Past: Power and the Production of History.* Beacon Press.
