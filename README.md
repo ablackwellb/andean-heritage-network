@@ -3,7 +3,7 @@
  
 > The Metropolitan Museum of Art holds 484,956 objects, including 2,108 from Andean cultures. Andean cultures like the Inka Empire kept their records and accounting using *khipukuna* (also known as the *khipu*, which is a Quechua term for "knots"). **The Met holds none.**
  
-This project treats that absence as its subject. Among Andean cultures, the *khipu* (a Quechua word meaning "knot"), was the primary system of record-keeping, computing, and accounting. Presently, and globally, around 900 khipu remain. These remaining khipu are scattered across three continents and 88 collections in museums. The remaining khipu, and the metadata that museums assign to them, are our only available way to reconstruct the shape of the Andean world. This network visualizes what holds the picture together when so much is missing.
+This project treats that absence as its subject. Developed and accepted as a complex administrative tool as early as 600 AD, the **khipu** (a Quechua word meaning "knot") was the primary system of record-keeping, computing, and accounting for many of these cultures. Presently, and globally, around 900 khipu remain. These remaining khipu are scattered across three continents and 88 collections in museums. The remaining khipu, and the metadata that museums assign to them, are our only available way to reconstruct the shape of the Andean world. This network visualizes what holds the picture together when so much is missing.
 
 ## What was Discovered
 
